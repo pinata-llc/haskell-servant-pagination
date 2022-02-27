@@ -100,8 +100,10 @@ module Servant.Pagination
   , RangeOrder(..)
   , AcceptRanges (..)
   , ContentRange (..)
+  , ExtractRange
   , PageHeaders
   , IsRangeType
+  , PutRange
 
   -- * Declare Ranges
   , HasPagination(..)
